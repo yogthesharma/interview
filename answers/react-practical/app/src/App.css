@@ -1,0 +1,70 @@
+/* Page-specific styles can go here if needed */
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal {
+  background: #fff;
+  padding: 1.25rem;
+  border-radius: 8px;
+  min-width: 280px;
+  max-width: 90vw;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 0.25rem;
+  background: #fff;
+  border: 1px solid #dde3ea;
+  border-radius: 6px;
+  min-width: 160px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  z-index: 10;
+}
+
+.dropdown-menu button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
+  color: inherit;
+  padding: 0.5rem 0.75rem;
+}
+
+.dropdown-menu button:hover {
+  background: #f0f2f5;
+}
+
+.scroll-box {
+  max-height: 280px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+.todo-done {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.render-count {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}

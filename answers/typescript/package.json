@@ -1,0 +1,18 @@
+{
+  "name": "interview-typescript-prep",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo:01": "tsx 01-typescript-core.ts",
+    "demo:02": "tsx 02-typescript-generics-patterns.ts",
+    "demo:all": "npm run demo:01 && npm run demo:02",
+    "practice:01": "tsx 01-typescript-core-practice.ts",
+    "practice:02": "tsx 02-typescript-generics-patterns-practice.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}

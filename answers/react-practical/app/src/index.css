@@ -1,0 +1,165 @@
+:root {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background: #f6f7f9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+code {
+  background: #e8ecf1;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.app-shell {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.home h1 {
+  margin-top: 0;
+}
+
+.exercise-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.exercise-list a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: #fff;
+  border: 1px solid #dde3ea;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.exercise-list a:hover {
+  border-color: #646cff;
+}
+
+.badge {
+  font-weight: 700;
+  color: #646cff;
+  min-width: 1.5rem;
+}
+
+.tag {
+  margin-left: auto;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+}
+
+.tag-build {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.tag-fix {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.exercise-nav a {
+  color: #646cff;
+  text-decoration: none;
+}
+
+.exercise-id {
+  color: #666;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.goal {
+  color: #444;
+}
+
+.checklist {
+  background: #fff;
+  border: 1px solid #dde3ea;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+}
+
+.workspace {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  background: #fff;
+  border: 1px solid #dde3ea;
+  border-radius: 8px;
+}
+
+input,
+button,
+select {
+  font: inherit;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  max-width: 320px;
+  padding: 0.5rem 0.65rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 0.45rem 0.85rem;
+  border: 1px solid #646cff;
+  background: #646cff;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: #fff;
+  color: #646cff;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+ul.plain {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 0;
+}
+
+ul.plain li {
+  padding: 0.35rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.error {
+  color: #c62828;
+  font-size: 0.9rem;
+}
+
+.hint {
+  color: #888;
+  font-style: italic;
+}
